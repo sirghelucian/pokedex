@@ -7,8 +7,8 @@ import ButtonAppBar from "./components/AppBar";
 
 function App() {
     return (
-        //Applicazione che permette di cercare pokemon, cliccando su di essa per vedere la scheda del pokemon cliccato
-        //Nella home ti permette di cercare un pokemon random e ogni volta che passi sopra col mouse sul pokemon esso si gira
+        //Applicazione che permette di cercare pokemon e visualizzare la scheda del pokemon una volta cliccato
+        //Nella home ti permette di cercare un pokemon random e ogni volta che passi sopra col mouse su un pokemon della lista esso si gira
         <div className="App">
             <BrowserRouter>
                 <ButtonAppBar />
